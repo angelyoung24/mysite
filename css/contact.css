@@ -1,24 +1,12 @@
 /*contact page*/
 
 
-
-
 /*Media Query*/
 
-@media screen and (max-width: 960px) {
-    body {
-        background-color: orange;
-    }
-    /*add */
-}
+@media screen and (max-width: 960px) {}
 
-@media screen and (max-width: 768px) {
-    body {
-        background-color: salmon;
-    }
-}
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 480px) {
-   
-
-   }
+    
+}
