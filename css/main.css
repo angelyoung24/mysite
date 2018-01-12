@@ -1,3 +1,6 @@
+/*Main.css is the layout page for all three pages*/*/
+
+
 * {
     margin: 0;
 }
@@ -22,17 +25,16 @@ nav {
     text-decoration: none;
 }
 
-.navbar ul li a:hover {
-    transform: scale(1.1, 1.1);
-}
-
 
 .navbar ul li {
     display: inline;
     text-align: right;
 }
 
-
+.navbar ul li a {
+    padding: 0;
+    margin: 0;
+}
 
 
 
@@ -53,19 +55,17 @@ h1 {
 
 /*footer*/
 
-.bottom {
+footer {
     padding: 30px;
-}
-
-.copy {
     text-align: center;
 }
 
 
 
+
 /*Media Query*/
 
-@media screen and (max-width: 960px) {
+/*@media screen and (max-width: 960px) {
 
     .bottom {
         font-size: 25px;
@@ -76,9 +76,9 @@ h1 {
     .bottom {
         font-size: 16px;
     }
-}
+}*/
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
 
     .navbar ul li {
         display: inline;
