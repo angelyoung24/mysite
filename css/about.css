@@ -1,32 +1,44 @@
 /*About Page*/
 
+
 /*image*/
 
-.me {
-    
-}
+.me {}
 
 .image {
-    padding: .5px;
-    float: left;
-    background-color: pink;
+    margin: 20px 0;
+    padding: 10px;
 }
 
-/*Media Query*/
+@media screen and (max-width: 960px) {
 
-/*@media screen and (max-width: 960px) {
-    body {
-        background-color: orange;
+    .me {
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
     }
-  }
+}
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: salmon;
+
+    .me {
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .image {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
     }
 }
 
 @media screen and (max-width: 480px) {
-   
-
-   }*/
+    .me {
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px;
+    }
+}
