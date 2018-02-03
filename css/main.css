@@ -1,13 +1,13 @@
-/*Main.css is the layout page for all three pages*/*/
+/*Main.css is the layout page for all three pages*/
 
-
-* {
+*/ * {
     margin: 0;
 }
 
 body {
     background-color: #fff;
 }
+
 
 
 
@@ -40,6 +40,7 @@ nav {
 
 
 
+
 /*title */
 
 h1 {
@@ -53,9 +54,10 @@ h1 {
 
 
 
+
 /*footer*/
 
-footer {
+.bottom {
     padding: 30px;
     text-align: center;
 }
@@ -63,41 +65,52 @@ footer {
 
 
 
+
 /*Media Query*/
 
-/*@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
 
-    .bottom {
-        font-size: 25px;
-    }
+ header, .navbar, #line, .wrapper, .bottom {
+    display:grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+     
+} 
 }
 
 @media screen and (max-width: 768px) {
-    .bottom {
-        font-size: 16px;
-    }
-}*/
-
-/*@media screen and (max-width: 480px) {
-
-    .navbar ul li {
-        display: inline;
-        text-align: center;
-    }
-
-
-    h1 {
-        position: static;
-        font-size: 20px;
-    }
-
-    .bottom {
-        font-size: 12px;
-    }
+ header, .navbar, #line, .wrapper, .bottom {
+    display:grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+     
 }
 
-.navbar ul li a {
-    position: static;
-    padding: 100px;
-    margin: 100px;
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+ header, .navbar, #line, .wrapper, .bottom {
+    display:grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+     
+} 
+header, .navbar, #line, .wrapper, .bottom {
+    text-align: center;
+        margin: 20px 0;
+        padding:10px;
+}
+
 }
