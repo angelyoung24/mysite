@@ -3,10 +3,27 @@
 
 /*Media Query*/
 
-@media screen and (max-width: 960px) {}
+@media screen and (max-width: 960px) {
 
-@media screen and (max-width: 768px) {}
+	.wrapper{
+		text-align: center;
+    	margin: 20px 0;
+    	padding:10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper{
+		text-align: center;
+    	margin: 20px 0;
+    	padding:10px;	
+    }
+}
 
 @media screen and (max-width: 480px) {
-    
+    .wrapper {
+    	text-align: center;
+    	margin: 20px 0;
+    	padding:10px;
+    }
 }
